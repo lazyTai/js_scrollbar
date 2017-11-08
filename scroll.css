@@ -1,0 +1,27 @@
+/* 设置垂直滚动条的宽度和水平滚动条的高度 */
+.beautyScroll::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+/* 设置滚动条的滑轨 */
+.beautyScroll::-webkit-scrollbar-track {
+      background-color: #ddd;
+}
+
+/* 滑块 */
+.beautyScroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+ /* 滑轨两头的监听按钮 */
+.beautyScroll::-webkit-scrollbar-button {
+    background-color: #888;
+    display: none;
+}
+
+/* 横向滚动条和纵向滚动条相交处尖角 */
+.beautyScroll::-webkit-scrollbar-corner {
+    /*background-color: black;*/
+}

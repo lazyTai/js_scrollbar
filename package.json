@@ -1,0 +1,41 @@
+{
+  "name": "scroll_css_js",
+  "version": "0.0.1.up.0",
+  "description": "scroll_css_js",
+  "main": "dist/lazyload.min.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.14.0",
+    "gulp-uglify": "^3.0.0",
+    "rollup-plugin-postcss": "^0.5.5"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verlok/lazyload"
+  },
+  "keywords": [
+    "scroll_css_js",
+    "vanilla",
+    "responsive",
+    "images",
+    "picture",
+    "srcset",
+    "SEO",
+    "intersectionObserver",
+    "sizes",
+    "progressive",
+    "performance",
+    "perfmatters",
+    "async",
+    "no-jquery"
+  ],
+  "author": "liumingtai",
+  "license": "MIT"
+}

@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            height: 1000px;
+        }
+
+        #wrapper {
+            width: 400px;
+            height: 500px;
+            border: 1px #bbb solid;
+            position: relative;
+            overflow: hidden;
+            margin: 50px auto;
+        }
+
+        #content {
+            height: 2500px;
+            width: 300px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url(http://files.jb51.net/file_images/article/201510/20151026113716032.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .wrapper {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        .content{
+            height: 400px;
+        }
+    </style>
+    <div id='wrapper'>
+        <div id="content"></div>
+    </div>
+
+    <div class='wrapper'>
+        <div class="content">asdasdasdasdfsdf dasd asdasdasdasdfsdfasdasd asdas
+        </div>
+    </div>
+
+
+    <p></p>
+    <script src="../dist/scrollcssjs.js"></script>
+
+    <script>
+        new AddScroll(document.querySelector('#wrapper'));
+        new AddScroll(document.querySelector('.wrapper'));
+    </script>
+</body>
+
+</html>
